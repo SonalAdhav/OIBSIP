@@ -3,35 +3,27 @@
 **Intern:** Sonal Bhagwan Adhav
 **Domain:** Java Development
 **Internship:** AICTE Oasis Infobyte Internship Program (OIBSIP)
+**Task:** Task 2 - Number Guessing Game
 
 ## About the Project
-A simple console-based Number Guessing Game built in Java. The computer picks a random number between 1 and 100, and the player tries to guess it.
+A console-based Java game. The computer picks a random number between 1 and 100, and the player guesses it using Too High / Too Low hints.
 
 ## Features
-- Random number between 1 and 100
-- Hints: "Too High!", "Too Low!" and "Correct!"
-- Maximum 7 attempts per round
-- Shows the correct number when the player loses
-- Play Again option with multiple rounds
-- Score tracking (wins out of total rounds)
-- Handles invalid input (non-numbers)
+- Random number generated for every round
+- Hints: Too High!, Too Low!, Correct!
+- Attempt counter with a maximum of 7 attempts
+- "You Lost!" message that reveals the number
+- Play Again option
+- Score tracking across rounds
+- Input validation for non-numeric input
 
 ## Technologies Used
-- Java (JDK 21)
-- VS Code
+- Java (Scanner, Random, loops and conditions)
 
 ## How to Run
-1. Install JDK 17 or higher.
-2. Clone this repository or download the files.
-3. Open a terminal in the project folder.
-4. Compile the program:
-```
-   javac NumberGuessingGame.java
-```
-5. Run the program:
-```
-   java NumberGuessingGame
-```
+1. Install JDK 17 or newer.
+2. Compile: `javac NumberGuessingGame.java`
+3. Run: `java NumberGuessingGame`
 
 ## How to Play
 1. The game picks a number between 1 and 100.
@@ -40,12 +32,18 @@ A simple console-based Number Guessing Game built in Java. The computer picks a 
 4. Type `yes` to play another round or `no` to quit.
 
 ## Screenshots
-![Win](screenshots/1-win.png)
 
-![Win](screenshots/1-win.2.png)
-![Win](screenshots/2-lost.png)
+**Win**
 
+![Win](screenshot/1-win.png)
 
+**Win (another round)**
+
+![Win 2](screenshot/1-win.2.png)
+
+**Lost**
+
+![Lost](screenshot/2-lost.png)
 
 ## Author
 Sonal Bhagwan Adhav
