@@ -40,7 +40,12 @@ A simple console-based Number Guessing Game built in Java. The computer picks a 
 4. Type `yes` to play another round or `no` to quit.
 
 ## Screenshots
-(Screenshots will be added here.)
+![Win](screenshots/1-win.png)
+
+![Win](screenshots/1-win.2.png)
+![Win](screenshots/2-lost.png)
+
+
 
 ## Author
 Sonal Bhagwan Adhav
